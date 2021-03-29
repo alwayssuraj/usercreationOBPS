@@ -1,0 +1,214 @@
+{
+  "tenantId": "sk.gangtok",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "REVENUE",
+        "name": "REVENUE"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Gangtok",
+        "localname": "Gangtok",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "sk.gangtok",
+        "children": [
+          
+              {
+                "id": "1",
+                "boundaryNum": 1,
+                "name": "Ward 1 - Arithang",
+                "localname": "Ward 1 - Upper Burtuk",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD1",
+                "children": []
+              },
+              {
+                "id": "2",
+                "boundaryNum": 1,
+                "name": "Ward 2 - Lower Burtuk",
+                "localname": "Ward 2 - Pravezabad Dudhaila",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD2",
+                "children": []
+              },
+              {
+                "id": "3",
+                "boundaryNum": 1,
+                "name": "Ward3",
+                "localname": "Ward 3 - Lower Sichey-I",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD3",
+                "children": []
+              },
+              {
+                "id": "4",
+                "boundaryNum": 1,
+                "name": "Ward 4 - Lower Sichey-II",
+                "localname": "Ward 4 - Lower Sichey-II",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD4",
+                "children": []
+              },
+              {
+                "id": "5",
+                "boundaryNum": 1,
+                "name": "Ward 5 - Upper Sichey",
+                "localname": "Ward 5 - Upper Sichey",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD5",
+                "children": []
+              },
+              {
+                "id": "6",
+                "boundaryNum": 1,
+                "name": "Ward 6 - Chandmari",
+                "localname": "Ward 6 - Chandmari",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD6",
+                "children": []
+              },
+              {
+                "id": "7",
+                "boundaryNum": 1,
+                "name": "Ward 7 - Development Area",
+                "localname": "Ward 7 - Development Area",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD7",
+                "children": []
+              },
+              {
+                "id": "8",
+                "boundaryNum": 1,
+                "name": "Ward 8 - Diesel Power House",
+                "localname": "Ward 8 - Diesel Power House",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD8",
+                "children": []
+              },
+              {
+                "id": "9",
+                "boundaryNum": 1,
+                "name": "Ward 9 - Arithang",
+                "localname": "Ward 9 - Arithang",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD9",
+                "children": []
+              },
+              {
+                "id": "10",
+                "boundaryNum": 1,
+                "name": "Ward 10 - Lower M.G. Road",
+                "localname": "Ward 10 - Lower M.G. Road",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD10",
+                "children": []
+              },
+              {
+                "id": "11",
+                "boundaryNum": 1,
+                "name": "Ward 11 - Upper M.G. Road",
+                "localname": "Ward 11 - Upper M.G. Road",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD11",
+                "children": []
+              },
+              {
+                "id": "12",
+                "boundaryNum": 1,
+                "name": "Ward 12 - Tibet Road",
+                "localname": "Ward 12 - Tibet Road",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD12",
+                "children": []
+              },
+              {
+                "id": "13",
+                "boundaryNum": 1,
+                "name": "Ward 13 - Deorali",
+                "localname": "Ward 13 - Deorali",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD13",
+                "children": []
+              },
+              {
+                "id": "14",
+                "boundaryNum": 1,
+                "name": "Ward 14 - Daragaon",
+                "localname": "Ward 14 - Daragaon",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD14",
+                "children": []
+              },
+              {
+                "id": "15",
+                "boundaryNum": 1,
+                "name": "Ward 15 - Tadong",
+                "localname": "Ward 15 - Tadong",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD15",
+                "children": []
+              },
+              {
+                "id": "16",
+                "boundaryNum": 1,
+                "name": "Ward 16 - Ranipool",
+                "localname": "Ward 16 - Ranipool",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD16",
+                "children": []
+              },
+              {
+                "id": "17",
+                "boundaryNum": 1,
+                "name": "Ward 17 - Syari-Tathangchen",
+                "localname": "Ward 17 - Syari-Tathangchen",
+                "longitude": null,
+                "latitude": null,
+                "label": "Block",
+                "code": "WARD17",
+                "children": []
+              }
+            
+            ]
+          }
+        }
+        ]
+  }
+
