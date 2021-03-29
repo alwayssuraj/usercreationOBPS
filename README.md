@@ -1,5 +1,5 @@
 # usercreationOBPS
-##eDCR URL 
+## eDCR URL 
 http://obps.sikkim.gov.in/edcr/rest/dcr/scrutinize?tenantId=sk.gangtok
 
 ##land services URL
@@ -19,10 +19,10 @@ http://obps.sikkim.gov.in/land-services/v1/land/_search?tenantId=sk&mobileNumber
   }
 }
 
-##Collection services URL
+## Collection services URL
 http://obps.sikkim.gov.in/collection-services/payments/_search?tenantId=sk.gangtok&consumerCodes=SK-BP-2021-02-19-000195
 
-##localization URL
+## localization URL
 https://uatobps.sikkim.gov.in/localization/messages/v1/_create
 {
     "RequestInfo":{
@@ -37,10 +37,10 @@ https://uatobps.sikkim.gov.in/localization/messages/v1/_create
             ]
 }
 
-##workflow services
+## workflow services
 https://uatobps.sikkim.gov.in/egov-workflow-v2/egov-wf/businessservice/_create
 
-##mdms search URL
+## mdms search URL
 http://obps.sikkim.gov.in/egov-mdms-service/v1/_get?moduleName=tenant&masterName=tenants&tenantId=sk.gangtok
 
 {
@@ -62,7 +62,7 @@ http://obps.sikkim.gov.in/egov-mdms-service/v1/_get?moduleName=tenant&masterName
 http://uatobps.sikkim.gov.in/adminer/?pgsql=postgres.uat-sikkim%3A5432&username=obpssikkim&db=obpssikkimdigit&ns=public&select=eg_userrole_v1&columns%5B0%5D%5Bfun%5D=&columns%5B0%5D%5Bcol%5D=&where%5B0%5D%5Bcol%5D=user_id&where%5B0%5D%5Bop%5D=%3D&where%5B0%5D%5Bval%5D=484&where%5B01%5D%5Bcol%5D=&where%5B01%5D%5Bop%5D=%3D&where%5B01%5D%5Bval%5D=&order%5B0%5D=&limit=50&text_length=100
 
 
-##devOPs
+## devOPs
 https://devops.cloud.gov.in/
 
 git.cloud.gov.in/
