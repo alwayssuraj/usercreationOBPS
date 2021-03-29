@@ -1,0 +1,24 @@
+Elzan Mathew6:20 PM
+egov-user:v1.2.1-4976757
+report:v1.3.0-28b3c97
+Elzan Mathew6:21 PM
+egov-enc-service:v1.1.0-f9375a4
+You6:28 PM
+2020-10-13 12:56:37.669+0000 ERROR --- [tartStop-1] o.s.b.c.e.tomcat.TomcatStarter           --  : Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'webMetricsFilter' defined in class path resource [io/micrometer/spring/autoconfigure/web/servlet/ServletMetricsConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to
+Unsatisfied dependency expressed through field 'configurers'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationServerConfiguration': Unsatisfied dependency expressed through field 'customAuthenticationManager'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customAuthenticationManager' defined in URL [jar:file:/opt/egov/egov-user-1.2.1-SNAPSHOT.ja
+Sravankumar M6:40 PM
+java-args: "-Dspring.profiles.active=production"
+Aniket Talele6:59 PM
+
+https://github.com/egovernments/egov-mdms-data/tree/DEV/data/pb/DataSecurity
+Elzan Mathew7:40 PM
+https://digit-discuss.atlassian.net/wiki/spaces/DD/pages/769654936/Service+Build+Updates+-+DIGIT+2.1
+Sravankumar M7:51 PM
+citizen-otp-fixed-enabled: "true"
+You8:03 PM
+
+ Error while fetching metadata with correlation id 3 : {egov.core.sms.expiry=LEADER_NOT_AVAILABLE}
+Pradeep Kumar8:41 PM
+{"transactionNumber":"124",  "edcrNumber":"1255", "planFile":null, "tenantId":"generic", "RequestInfo":{"apiId":"","ver":"","ts":"","action":"","did":"","authToken":"966e86ef-b176-4301-8b03-52965ba5e703","key":"","msgId":"","correlationId":"","userInfo":{"id":"1"}}}
+Pradeep Kumar9:00 PM
+https://www.getpostman.com/collections/3eee7c6b9d275b91f149

@@ -1,0 +1,22 @@
+"Prior permission for commencement of the building should be sought for on Form V obtainable from the Urban Dev. and HOusing Department",
+"The construction should be as per approved B.P.Plans and no deviation is permissible without the prior permission of the Government",
+"There should be enough facilities for good sanitation and drainage system",
+"The construction should be as per order and supervision of the Urban Development and Housing Department Engineer",
+"Strict quality control is maintained in the process of construction",
+"The door or window panels shall be fixed in such a way that they shall not, when open project on any street",
+"The building shall not be constructed within 10ft of the live electric wire running on any public street",
+"The land vacated in consequence of the enforcement of the setback limit shall form part of the public street",
+"No new building or part thereof shall be occupied or allowed to be occupied or used permitted to be used by any person until permission granted in that behalf",
+"The construction of the building should be completed not later than three years from the date of issue of construction order. Failure to do so the B.P.Plan should be submitted for renewal",
+"In case, the ownership is found to be defective at any state of time the approval accorded and this order shall stand automatically revoked and the structure/work building thus constructed shall be considered as without proper approval and shall be dealt with accordingly",
+"The excavated earth obtained from site development foundation shall not be dumped on a public street, road guly and jhoras",
+"The Engineer Urban Dev. & Housing Department must be informed before the foundation is laid. Only after the foundation is passed by Divisional Engineer will the construction be allowed to continue",
+"Dumping of construction material/spoils shall not be made on any public places,roads, footpaths, jhoras of project of adjoining persons/owners",
+"That you shall not build the building beyond the approved Blue Print Plans"
+
+The copies of the approved B.P.Plan is returned herewith for your record
+
+
+
+idname: for permit? bpa.permitnumber
+

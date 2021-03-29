@@ -1,0 +1,219 @@
+
+
+
+{
+    "RequestInfo": {
+        "apiId": "Rainmaker",
+        "action": "",
+        "did": 1,
+        "key": "",
+        "msgId": "20170310130900|en_IN",
+        "requesterId": "",
+        "ts": 1513579888683,
+        "ver": ".01",
+        "authToken": "de043927-885f-45fd-b4fe-9bbf9a61c3d6"
+       
+    },
+    "BusinessServices": [
+        {
+            "tenantId": "sk",
+            "businessService": "ENGINEER",
+            "business": "BPAREG",
+            "businessServiceSla": null,
+            "states": [
+                {
+                    "sla": null,
+                    "state": null,
+                    "applicationStatus": null,
+                    "docUploadRequired": false,
+                    "isStartState": true,
+                    "isTerminateState": false,
+                    "isStateUpdatable": true,
+                    "actions": [
+                        {
+                            "action": "APPLY",
+                            "nextState": "PENDINGDOCVERIFICATION",
+                            "roles": [
+                                "CITIZEN",
+                                "ANONYMOUS"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sla": null,
+                    "state": "PENDINGDOCVERIFICATION",
+                    "applicationStatus": "PENDINGDOCVERIFICATION",
+                    "docUploadRequired": false,
+                    "isStartState": false,
+                    "isTerminateState": false,
+                    "isStateUpdatable": false,
+                    "actions": [
+                        {
+                            "action": "FORWARD",
+                            "nextState": "PENDINGAPPROVAL",
+                            "roles": [
+                                "BPAREG_DOC_VERIFIER"                                
+                            ]
+                        },
+                        {
+                            "action": "REJECT",
+                            "nextState": "REJECTED",
+                            "roles": [
+                                "BPAREG_DOC_VERIFIER"
+                            ]
+
+                        }
+                    ]
+                },        
+                {
+                    "sla": null,
+                    "state": "PENDINGAPPROVAL",
+                    "applicationStatus": "PENDINGAPPROVAL",
+                    "docUploadRequired": false,
+                    "isStartState": false,
+                    "isTerminateState": false,
+                    "isStateUpdatable": false,
+                    "actions": [
+                        {
+                            "action": "APPROVE",
+                            "nextState": "APPROVED",
+                            "roles": [
+                                "BPAREG_APPROVER"
+                            ]
+                        },
+                        {
+                            "action": "REJECT",
+                            "nextState": "REJECTED",
+                            "roles": [
+                                "BPAREG_APPROVER"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sla": null,
+                    "state": "REJECTED",
+                    "applicationStatus": "REJECTED",
+                    "isStateUpdatable": false,
+                    "docUploadRequired": false,
+                    "isStartState": false,
+                    "isTerminateState": true,
+                    "actions": null
+                    
+                },
+                {
+                    "sla": null,
+                    "state": "APPROVED",
+                    "applicationStatus": "APPROVED",
+                    "isStateUpdatable": false,
+                    "docUploadRequired": false,
+                    "isStartState": false,
+                    "isTerminateState": true,
+                    "actions": null
+                    
+                }
+            ]
+        },
+        {
+            "tenantId": "sk",
+            "businessService": "ARCHITECT",
+            "business": "BPAREG",
+            "businessServiceSla": null,
+            "states": [
+                {
+                    "sla": null,
+                    "state": null,
+                    "applicationStatus": null,
+                    "docUploadRequired": false,
+                    "isStartState": true,
+                    "isTerminateState": false,
+                    "isStateUpdatable": true,
+                    "actions": [
+                        {
+                            "action": "APPLY",
+                            "nextState": "PENDINGDOCVERIFICATION",
+                            "roles": [
+                                "CITIZEN",
+                                "ANONYMOUS"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sla": null,
+                    "state": "PENDINGDOCVERIFICATION",
+                    "applicationStatus": "PENDINGDOCVERIFICATION",
+                    "docUploadRequired": false,
+                    "isStartState": false,
+                    "isTerminateState": false,
+                    "isStateUpdatable": false,
+                    "actions": [
+                        {
+                            "action": "FORWARD",
+                            "nextState": "PENDINGAPPROVAL",
+                            "roles": [
+                                "BPAREG_DOC_VERIFIER"                                
+                            ]
+                        },
+                        {
+                            "action": "REJECT",
+                            "nextState": "REJECTED",
+                            "roles": [
+                                "BPAREG_DOC_VERIFIER"
+                            ]
+
+                        }
+                    ]
+                },        
+                {
+                    "sla": null,
+                    "state": "PENDINGAPPROVAL",
+                    "applicationStatus": "PENDINGAPPROVAL",
+                    "docUploadRequired": false,
+                    "isStartState": false,
+                    "isTerminateState": false,
+                    "isStateUpdatable": false,
+                    "actions": [
+                        {
+                            "action": "APPROVE",
+                            "nextState": "APPROVED",
+                            "roles": [
+                                "BPAREG_APPROVER"
+                            ]
+                        },
+                        {
+                            "action": "REJECT",
+                            "nextState": "REJECTED",
+                            "roles": [
+                                "BPAREG_APPROVER"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sla": null,
+                    "state": "REJECTED",
+                    "applicationStatus": "REJECTED",
+                    "isStateUpdatable": false,
+                    "docUploadRequired": false,
+                    "isStartState": false,
+                    "isTerminateState": true,
+                    "actions": null
+                    
+                },
+                {
+                    "sla": null,
+                    "state": "APPROVED",
+                    "applicationStatus": "APPROVED",
+                    "isStateUpdatable": false,
+                    "docUploadRequired": false,
+                    "isStartState": false,
+                    "isTerminateState": true,
+                    "actions": null
+                    
+                }
+            ]
+        }
+    ]
+}

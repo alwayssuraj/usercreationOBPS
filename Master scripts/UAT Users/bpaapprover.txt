@@ -1,0 +1,39 @@
+curl -X POST \
+  http://egov-user:8080/user/users/_createnovalidate \
+  -H 'Accept: /' \
+  -H 'Accept-Encoding: gzip, deflate' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Length: 1162' \
+  -H 'Content-Type: application/json' \
+  -H 'cache-control: no-cache' \
+  -d '{
+  "RequestInfo": {},
+   "user": {
+            "id": 23,
+            "userName": "bpaapprover1",
+            "salutation": null,
+            "name": "Gangtok Approver",
+            "gender": "MALE",
+            "mobileNumber": "9402309075",
+            "correspondenceAddress": "Shillong",
+            "active": true,
+            "type": "EMPLOYEE",
+ 	    "password": "Password@10",
+            "fatherOrHusbandName": "Gangtok noc verifier",
+            "tenantId": "sk.gangtok",
+            "roles": [
+                {	
+                    "code": "EMPLOYEE",
+                    "name": "EMPLOYEE",
+                    "tenantId": "sk.gangtok"
+                },
+                {
+                    "code": "BPA_APPROVER",
+                    "name": "BPA_APPROVER",
+                    "tenantId": "sk.gangtok"
+                }				
+		 
+            ]
+        }
+}'

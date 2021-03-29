@@ -1,0 +1,39 @@
+curl -X POST \
+  http://egov-user:8080/user/users/_createnovalidate \
+  -H 'Accept: /' \
+  -H 'Accept-Encoding: gzip, deflate' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Length: 1162' \
+  -H 'Content-Type: application/json' \
+  -H 'cache-control: no-cache' \
+  -d '{
+  "RequestInfo": {},
+   "user": {
+            "id": 3,
+            "userName": "skdoc",
+            "salutation": null,
+            "name": "BPAREG Document Verifier",
+            "gender": "MALE",
+            "mobileNumber": "9402309075",
+            "correspondenceAddress": "Shillong",
+            "active": true,
+            "type": "EMPLOYEE",
+ 	    "password": "Password@10",
+            "fatherOrHusbandName": "Sikkim Doc Verifier ka Baap",
+            "tenantId": "sk",
+            "roles": [
+                {
+                    "code": "BPAREG_DOC_VERIFIER",
+                    "name": "BPAREG_DOC_VERIFIER",
+                    "tenantId": "sk"
+                },
+		 {
+                    "code": "EMPLOYEE",
+                    "name": "EMPLOYEE",
+                    "tenantId": "sk"
+                }
+		 
+            ]
+        }
+}'

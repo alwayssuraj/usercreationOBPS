@@ -1,0 +1,39 @@
+curl -X POST \
+  http://egov-user:8080/user/users/_createnovalidate \
+  -H 'Accept: /' \
+  -H 'Accept-Encoding: gzip, deflate' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Length: 1162' \
+  -H 'Content-Type: application/json' \
+  -H 'cache-control: no-cache' \
+  -d '{
+  "RequestInfo": {},
+   "user": {
+            "id": 7,
+            "userName": "cemp",
+            "salutation": null,
+            "name": "Gangtok CASHIER",
+            "gender": "MALE",
+            "mobileNumber": "9402309075",
+            "correspondenceAddress": "Shillong",
+            "active": true,
+            "type": "EMPLOYEE",
+ 	    "password": "Password@10",
+            "fatherOrHusbandName": "Gangtok CEMP",
+            "tenantId": "sk.gangtok",
+            "roles": [
+                {	
+                    "code": "EMPLOYEE",
+                    "name": "EMPLOYEE",
+                    "tenantId": "sk.gangtok"
+                },
+                {
+                    "code": "CEMP",
+                    "name": "CEMP",
+                    "tenantId": "sk.gangtok"
+                }				
+		 
+            ]
+        }
+}'
